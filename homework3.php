@@ -13,13 +13,13 @@
 	// 	public $color;
 	// }
 
-class mammal {
+class Mammal {
 	public $baby = 'Live young';
 	public $lactation = 'Yes';
 	public $blooded = 'Warm blooded';
 
 	public function breathe() {
-		print "Inhale exhale!"
+		print "Inhale exhale!";
 	}
 	public function reproduce() {
 		Print 'Let\'s make a baby!';
@@ -29,7 +29,7 @@ class mammal {
 	}
 }
 
-class dolphin {
+class Dolphin {
 	public $color = 'Blue';
 	public $size = 'Medium';
 	public $eater = 'Carnivore';
@@ -45,7 +45,7 @@ class dolphin {
 	}
 }
 
-class elephant {
+class Elephant {
 	public $color = 'Grey';
 	public $size = 'Large';
 	public $eater = 'Herbivore';
@@ -61,7 +61,7 @@ class elephant {
 	}
 }
 
-class platypus {
+class Platypus {
 	public $color = 'Brown';
 	public $size = 'Medium';
 	public $eater = 'Omnivore';
